@@ -1,0 +1,27 @@
+<resources>
+    <!-- Labels -->
+    <string name="label_currently_not_available">Currently not available</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_absent">-</string>
+
+    <!-- Titles -->
+    <string name="title_burgers">Burgers</string>
+    <string name="title_drinks">Drinks</string>
+    <string name="title_special_ingredients">Special ingredients</string>
+    <string name="title_allergens">Allergens</string>
+    <string name="title_price">Price</string>
+    <string name="title_weight">Weight</string>
+    <string name="title_vegetarian">Vegetarian</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_price_usd">%s USD</string>
+    <string name="placeholder_weight_grams">%s g</string>
+    <string name="placeholder_no_data_loaded">No data loaded !</string>
+    <string name="placeholder_failure_loading">Loading failed ! Please try again later !</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_burger_image">Burger image</string>
+    <string name="content_description_drink_image">Drink image</string>
+    <string name="content_description_back_arrow_image">Back arrow image</string>
+</resources>

@@ -1,0 +1,125 @@
+{
+    "name": "Ahoi Burger!",
+    "address": {
+        "street": "Sesame street 1",
+        "city": "Linz",
+        "country": {
+            "country_code": "AT",
+            "name": "Austria"
+        }
+    },
+    "offered_burgers": [{
+            "name": "Big Burger",
+            "description": "This is a very tasty burger",
+            "weight_grams": 180,
+            "price_usd": 9.99,
+            "info": {
+                "in_stock": true,
+                "vegetarian": false,
+                "allergens_contained_in": ["rr", "xx", "mm", "bb"],
+                "availableSince": 1605394800000,
+                "available_until": "2021-12-12T00:00:00Z",
+                "img": "file:///android_asset/photo_burger_big_burger.png"
+            },
+            "tags": ["bacon", "tomatoes"]
+        },
+        {
+            "name": "Small Burger",
+            "description": "This is a very tasty but small burger",
+            "weight_grams": 100,
+            "price_usd": 6.99,
+            "info": {
+                "in_stock": true,
+                "vegetarian": true,
+                "allergens_contained_in": [],
+                "availableSince": 1605394800000,
+                "available_until": "2020-11-25T00:00:00Z",
+                "img": "file:///android_asset/photo_burger_small_burger.png"
+            }
+        },
+        {
+            "name": "Medium Burger",
+            "description": "This is a very tasty but medium burger",
+            "weight_grams": 150,
+            "price_usd": 8.99,
+            "info": {
+                "in_stock": true,
+                "vegetarian": true,
+                "allergens_contained_in": ["mm"],
+                "img": "file:///android_asset/photo_burger_medium_burger.png"
+            },
+            "tags": []
+        },
+        {
+            "name": "Fish Burger",
+            "description": "This is a very tasty fish burger",
+            "price_usd": 10.99,
+            "tags": ["fish", "salad"],
+            "info": {
+                "vegetarian": false,
+                "img": "file:///android_asset/photo_burger_fish_burger.png"
+            }
+        },
+        {
+            "name": "Chili Burger",
+            "description": "This is a very tasty and hot burger",
+            "weight_grams": 170,
+            "price_usd": 9.99,
+            "info": {
+                "in_stock": true,
+                "vegetarian": false,
+                "allergens_contained_in": ["rr", "zz", "mm"],
+                "availableSince": 1606823381947,
+                "img": "file:///android_asset/photo_burger_chili_burger.png"
+            },
+            "tags": ["bacon", "tomatoes"]
+        },
+        {
+            "name": "Chicken Burger",
+            "description": "This is a very tasty chicken burger",
+            "weight_grams": 140,
+            "price_usd": 9,
+            "info": {
+                "in_stock": false,
+                "vegetarian": false,
+                "allergens_contained_in": ["rr", "zz", "ll"],
+                "img": "file:///android_asset/photo_burger_chicken_burger.png"
+            },
+            "tags": ["chicken", "salad"]
+        },
+        {
+            "name": "Veggie Burger",
+            "description": "This is a very tasty veggie burger",
+            "weight_grams": 140,
+            "price_usd": 7.5,
+            "info": {
+                "in_stock": true,
+                "vegetarian": true,
+                "allergens_contained_in": ["vv"],
+                "img": "file:///android_asset/photo_burger_veggie_burger.png"
+            },
+            "tags": ["tofu", "salad", "tomatoes"]
+        }
+    ],
+    "offered_drinks": [{
+            "name": "Long island ice tea",
+            "description": "This is a nice cocktail",
+            "price": 4.99,
+            "allergens": ["rr"],
+            "img": "file:///android_asset/photo_drinks_long_island.png"
+        },
+        {
+            "name": "Orange juice",
+            "description": "This is a very refreshing fruity drink",
+            "price": 6.99,
+            "allergens": ["oo"],
+            "img": "file:///android_asset/photo_drinks_orange_juice.png"
+        },
+        {
+            "name": "Coffee",
+            "description": "This is a very delicious coffee",
+            "price": 3.99,
+            "img": "file:///android_asset/photo_drinks_coffee.png"
+        }
+    ]
+}
